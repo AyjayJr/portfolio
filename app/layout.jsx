@@ -1,3 +1,5 @@
+import Nav from "@/components/Nav"
+import "@picocss/pico"
 
 export const metadata = {
 	title: "Anthony Jr | Portfolio",
@@ -8,7 +10,15 @@ const layout = ({ children }) => {
 	return (
 		<html lang="en">
 			<body>
-				{children}
+				<header className="container">
+					<Nav/>
+				</header>
+				<main className="container">
+					{children}
+				</main>
+				<footer className="container">
+					Footer	
+				</footer>
 			</body>
 		</html>
 	)
