@@ -2,23 +2,15 @@ import Image from "next/image"
 
 const Nav = ({ clickHandler }) => {
 	return (
-		<nav>
-			<ul>
+		<nav className="flex flex-row justify-between items-center">
+			<ul className="text-2xl text-text">
 				<li><strong>anthony.dev</strong></li>
 			</ul>
-			<ul>
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="#">About</a>
-				</li>
-				<li>
-					<a href="#">Projects</a>
-				</li>
-				<li>
-					<a href="#">Contact</a>
-				</li>
+			<ul className="hidden md:flex flex-row space-x-4 text-lg">
+				<li className="text-text hover:text-primary"><a href="#">Home</a></li>
+				<li className="text-text hover:text-primary"><a href="#">About</a></li>
+				<li className="text-text hover:text-primary"><a href="#">Projects</a></li>
+				<li className="text-text hover:text-primary"><a href="#">Contact</a></li>
 				<li>
 					<button role="button" onClick={clickHandler}>
 						<Image

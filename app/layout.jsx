@@ -13,19 +13,16 @@ const layout = ({ children }) => {
 	}
 
 	return (
-		<html lang="en" data-theme={isDark ? "dark" : "light"}>
-			<body>
-				<header className="container navbar">
+		<html lang="en">
+			<body className="bg-bg">
+				<header className="p-6 fixed top-0 left-0 right-0">
 					<Nav
 						clickHandler={darkModeHandler}
 					/>
 				</header>
-				<main className="container">
+				<main className="mt-40 p-6">
 					{children}
 				</main>
-				<footer className="container">
-					Footer	
-				</footer>
 			</body>
 		</html>
 	)
