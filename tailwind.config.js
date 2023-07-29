@@ -17,6 +17,9 @@ module.exports = {
         dark_bg: "#011423",
         dark_secondary: "#02192c",
         dark_accent: "#93caf6"
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/assets/cartoon.png')",
       }
     },
   },

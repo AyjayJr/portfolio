@@ -14,13 +14,13 @@ const layout = ({ children }) => {
 
 	return (
 		<html lang="en">
-			<body className="bg-bg container mx-auto max-w-6xl">
-				<header className="py-6 fixed top-0 left-0 right-0 shadow shadow-bottom bg-bg z-10">
+			<body className="bg-bg container mt-48 mx-auto max-w-5xl">
+				<header className="py-6 fixed top-0 left-0 right-0 shadow-lg bg-bg z-10">
 					<Nav
 						clickHandler={darkModeHandler}
 					/>
 				</header>
-				<main className="mt-48">
+				<main className="mb-10">
 					{children}
 				</main>
 			</body>
