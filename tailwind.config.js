@@ -19,7 +19,7 @@ module.exports = {
         dark_accent: "#93caf6"
       },
       backgroundImage: {
-        'hero-pattern': "url('/assets/cartoon.png')",
+        'hero-img': "url('/assets/me.jpeg')",
       }
     },
   },

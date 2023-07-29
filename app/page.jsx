@@ -28,7 +28,7 @@ const Home = () => {
 					/>
 				</a>
 			</div>
-			<div priority={true} className="bg-hero-pattern w-96 h-96 bg-contain border-accent border-2 border_animation"> 
+			<div priority={true} className="bg-hero-img w-96 h-96 bg-cover bg-center bg-no-repeat border-text border-2 border_animation"> 
 			</div>
 		</div>
 	)
