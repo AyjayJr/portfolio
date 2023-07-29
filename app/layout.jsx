@@ -1,7 +1,7 @@
 "use client"
 
+import "@/styles/globals.css" 
 import Nav from "@/components/Nav"
-import "@picocss/pico"
 
 import { useState } from "react"
 

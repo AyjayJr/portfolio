@@ -8,32 +8,13 @@ const Nav = ({ clickHandler }) => {
 			</ul>
 			<ul>
 				<li>
-					<a
-						href="https://linkedin.com/in/anthony-j-garcia-jr" 
-						target="_blank"
-						className="secondary"
-					>
-						<Image
-							src="/assets/In.png"
-							alt="linkedin_logo"
-							width={20}
-							height={20}
-						/>
-					</a>
+					<a href="#">About</a>
 				</li>
 				<li>
-					<a
-						href="https://github.com/ayjayjr"
-						className="secondary"
-						target="_blank"
-					>
-						<Image
-							src="/assets/github.png"
-							alt="github_logo"
-							width={20}
-							height={20}
-						/>
-					</a>
+					<a href="#">Projects</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
 				</li>
 				<li>
 					<button role="button" onClick={clickHandler}>
