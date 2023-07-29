@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Nav = ({ clickHandler }) => {
 	return (
-		<nav className="flex flex-row justify-between items-center">
+		<nav className="container mx-auto flex flex-row justify-between items-center">
 			<ul className="text-2xl text-text">
 				<li><strong>anthony.dev</strong></li>
 			</ul>
