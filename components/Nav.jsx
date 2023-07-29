@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-const Nav = () => {
+const Nav = ({ clickHandler }) => {
 	return (
 		<nav>
 			<ul>
@@ -8,7 +8,7 @@ const Nav = () => {
 			</ul>
 			<ul>
 				<li>
-					<a href="#" class="secondary">
+					<a href="#" className="secondary">
 						<Image
 							src="/assets/In.png"
 							alt="linkedin_logo"
@@ -18,7 +18,7 @@ const Nav = () => {
 					</a>
 				</li>
 				<li>
-					<a href="#" class="secondary">
+					<a href="#" className="secondary">
 						<Image
 							src="/assets/github.png"
 							alt="github_logo"
@@ -28,7 +28,7 @@ const Nav = () => {
 					</a>
 				</li>
 				<li>
-					<button role="button">
+					<button role="button" onClick={clickHandler}>
 						<Image
 							src="/assets/brightness.png"
 							width={20}

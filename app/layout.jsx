@@ -1,17 +1,24 @@
+"use client"
+
 import Nav from "@/components/Nav"
 import "@picocss/pico"
 
-export const metadata = {
-	title: "Anthony Jr - Home",
-	description: "Anthony Jr's portfolio showcasing skills and related works"
-}
+import { useState } from "react"
 
 const layout = ({ children }) => {
+	const [ isDark, setIsDark ] = useState(true);
+
+	const darkModeHandler = () => {
+		setIsDark((prev) => (!prev));
+	}
+
 	return (
-		<html lang="en">
+		<html lang="en" data-theme={isDark ? "dark" : "light"}>
 			<body>
 				<header className="container">
-					<Nav/>
+					<Nav
+						clickHandler={darkModeHandler}
+					/>
 				</header>
 				<main className="container">
 					{children}
