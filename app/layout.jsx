@@ -15,7 +15,7 @@ const layout = ({ children }) => {
 	return (
 		<html lang="en" data-theme={isDark ? "dark" : "light"}>
 			<body>
-				<header className="container">
+				<header className="container navbar">
 					<Nav
 						clickHandler={darkModeHandler}
 					/>

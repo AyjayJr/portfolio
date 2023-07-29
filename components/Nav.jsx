@@ -4,9 +4,12 @@ const Nav = ({ clickHandler }) => {
 	return (
 		<nav>
 			<ul>
-				<li><strong>Anthony Garcia Jr</strong></li>
+				<li><strong>anthony.dev</strong></li>
 			</ul>
 			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
 				<li>
 					<a href="#">About</a>
 				</li>

@@ -1,1 +1,8 @@
-@import "@picocss/pico"
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+	padding: 0px 0px;
+	border-bottom: 1px solid white;
+}
