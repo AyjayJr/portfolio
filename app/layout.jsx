@@ -2,7 +2,7 @@ import Nav from "@/components/Nav"
 import "@picocss/pico"
 
 export const metadata = {
-	title: "Anthony Jr | Portfolio",
+	title: "Anthony Jr - Home",
 	description: "Anthony Jr's portfolio showcasing skills and related works"
 }
 
