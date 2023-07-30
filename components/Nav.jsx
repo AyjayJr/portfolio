@@ -15,6 +15,7 @@ const Nav = ({ clickHandler }) => {
 					<button role="button" onClick={clickHandler}>
 						<Image
 							src="/assets/brightness.png"
+							alt="dark_mode_button"
 							width={20}
 							height={20}
 						/>

@@ -16,6 +16,16 @@
   transition: all 1s ease-in-out;
 }
 
+.floating {  
+  animation: floating 3s ease-in-out infinite;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.delay_2s {
+  animation-delay: 2s;
+}
+
 @keyframes morph {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -28,4 +38,10 @@
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
 }

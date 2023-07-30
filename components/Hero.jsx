@@ -29,17 +29,20 @@ const Hero = () => {
 						/>
 					</a>
 				</div>
-				<div priority={true} className="mb-10 bg-hero-img w-96 h-96 bg- bg-cover bg-center bg-no-repeat shadow-md border-gray-200 border-2 border_animation">
+				<div
+					className="mb-10 bg-hero-img w-96 h-96 bg- bg-cover bg-center bg-no-repeat shadow-md border-gray-200 border-2 border_animation"
+					priority="true" 	
+				>
 				</div>
 			</div>
-			<div className="flex items-center justify-center lg:justify-start gap-8">
+			<div className="flex items-center justify-center lg:justify-start gap-4">
 				<h2 className="text-lg">
 					<strong className="hidden lg:block text-text">
 						Tech Stack
 					</strong>
 				</h2>
 				<Image
-					className="inline"
+					className="inline floating"
 					src="/assets/html-5.png"
 					alt="html5_logo"
 					width={50}
@@ -47,7 +50,7 @@ const Hero = () => {
 					unoptimized
 				/>
 				<Image
-					className="inline"
+					className="inline floating delay_2s"
 					src="/assets/css-3.png"
 					alt="css3_logo"
 					width={50}
@@ -55,7 +58,7 @@ const Hero = () => {
 					unoptimized
 				/>
 				<Image
-					className="inline"
+					className="inline floating"
 					src="/assets/js.png"
 					alt="js_logo"
 					width={50}
@@ -63,7 +66,7 @@ const Hero = () => {
 					unoptimized
 				/>
 				<Image
-					className="inline"
+					className="inline floating delay_2s"
 					src="/assets/reactjs.svg"
 					alt="reactjs_logo"
 					width={50}
@@ -71,7 +74,7 @@ const Hero = () => {
 					unoptimized
 				/>
 				<Image
-					className="inline"
+					className="inline floating"
 					src="/assets/nextjs.svg"
 					alt="nextjs_logo"
 					width={50}
@@ -79,7 +82,7 @@ const Hero = () => {
 					unoptimized
 				/>
 				<Image
-					className="inline"
+					className="inline floating delay_2s"
 					src="/assets/tailwind.svg"
 					alt="tailwind_logo"
 					width={50}
