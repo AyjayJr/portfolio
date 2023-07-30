@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-const Nav = ({ clickHandler }) => {
+const Nav = () => {
 	return (
 		<nav className="container mx-auto max-w-5xl flex flex-row justify-between items-center">
 			<ul className="ml-1 text-2xl text-text">
@@ -12,7 +12,7 @@ const Nav = ({ clickHandler }) => {
 				<li className="text-text hover:text-accent"><a href="#">Projects</a></li>
 				<li className="text-text hover:text-accent"><a href="#">Contact</a></li>
 				<li>
-					<button role="button" onClick={clickHandler}>
+					<button role="button">
 						<Image
 							src="/assets/brightness.png"
 							alt="dark_mode_button"
