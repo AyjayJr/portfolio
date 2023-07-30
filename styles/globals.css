@@ -2,12 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --clr-1: #8fb3ff;
+  --clr-2: #ebf1ff;
+  --clr-3: #f199bf;
+  --clr-4: #d41d6d;
+  --clr-5: #001952;
+}
+
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
 .gradient_text {
   background-image: radial-gradient(circle, #8fb3ff, #d41d6d);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  /* Set text color to transparent to show the gradient */
+}
+
+.glowing_gradient::before,
+.glowing_gradient::after {
+  content: "";
+  position: absolute;
+  inset: -.25rem;
+  z-index: -1;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    var(--clr-3),
+    var(--clr-4),
+    var(--clr-1),
+    var(--clr-4),
+    var(--clr-3));
+  animation: rotation 10s linear infinite;
+}
+
+.glowing_gradient::after {
+  filter: blur(3.5rem);
 }
 
 .border_animation {
@@ -38,6 +72,12 @@
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+}
+
+@keyframes rotation {
+  0%   { --gradient-angle: 0deg; }
+  100% { --gradient-angle: 360deg; }
+  
 }
 
 @keyframes floating {

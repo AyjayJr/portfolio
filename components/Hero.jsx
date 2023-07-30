@@ -30,7 +30,7 @@ const Hero = () => {
 					</a>
 				</div>
 				<div
-					className="mb-10 bg-hero-img w-96 h-96 bg- bg-cover bg-center bg-no-repeat shadow-md border-gray-200 border-2 border_animation"
+					className="mb-10 bg-hero-img w-96 h-96 bg-cover bg-center bg-no-repeat shadow-md rounded-full relative glowing_gradient border_animation"
 					priority="true"
 				>
 				</div>
