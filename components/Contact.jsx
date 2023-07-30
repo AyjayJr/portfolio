@@ -4,7 +4,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons"
 
 const Contact = () => {
 	return (
-		<div className="py-44 mx-5 border-b-2 border-gray-200">
+		<div className="py-32 mx-5 text-center lg:text-left border-b-2 border-gray-200">
 			<div>
 				<h2 className="text-xl text-accent">
 					<strong>
@@ -17,7 +17,7 @@ const Contact = () => {
 					</strong>
 				</p>
 			</div>
-			<div className="pt-12 flex items-center w-full gap-8">
+			<div className="pt-12 flex flex-col lg:flex-row items-center w-full gap-5">
 				<div className="shadow-xl rounded-full border border-gray-200">
 					<FontAwesomeIcon
 						className="my-5 mx-6"
@@ -35,7 +35,7 @@ const Contact = () => {
 						Tampa, FL
 					</p>
 				</div>
-				<div className="shadow-xl rounded-full border border-gray-200">
+				<div className="mt-5 lg:mt-0 shadow-xl rounded-full border border-gray-200">
 					<FontAwesomeIcon
 						className="my-6 mx-6"
 						icon={faEnvelopeOpenText}
