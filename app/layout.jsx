@@ -20,7 +20,7 @@ const layout = ({ children }) => {
 						clickHandler={darkModeHandler}
 					/>
 				</header>
-				<main className="mb-10">
+				<main>
 					{children}
 				</main>
 			</body>
