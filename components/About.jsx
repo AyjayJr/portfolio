@@ -15,7 +15,7 @@ const About = () => {
 				</p>
 			</div>
 			<Image
-				className="rounded-lg"
+				className="rounded-lg box_shadow"
 				src="/assets/christopher-gower-unsplash.jpg"
 				alt="laptop"
 				width={500}

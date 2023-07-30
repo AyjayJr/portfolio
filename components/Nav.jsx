@@ -4,7 +4,7 @@ const Nav = () => {
 	return (
 		<nav className="container mx-auto max-w-5xl flex flex-row justify-between items-center">
 			<ul className="ml-1 text-2xl text-text">
-				<li><strong>anthony.dev</strong></li>
+				<li><strong>anthonyjr.dev</strong></li>
 			</ul>
 			<ul className="hidden md:flex flex-row space-x-4 text-lg">
 				<li className="text-text hover:text-accent"><a href="#">Home</a></li>

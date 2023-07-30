@@ -26,7 +26,7 @@ function Card({ emoji, hueA, hueB }) {
 
 	return (
 		<motion.div
-			className="card-container"
+			className="card_container"
 			initial="offscreen"
 			whileInView="onscreen"
 			viewport={{ once: true, amount: 0.8 }}
