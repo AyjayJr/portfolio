@@ -8,7 +8,7 @@ const Hero = () => {
 		<div className="pb-56 border-b-2 border-gray-200">
 			<div className="pb-10 mb-10 flex flex-col-reverse lg:flex-row lg:text-left text-center items-center justify-between">
 				<div className="max-w-2xl">
-					<h1 className="text-6xl gradient_text pb-8">
+					<h1 className="text-6xl pb-8">
 						<b>Full-stack Developer</b>
 					</h1>
 					<p className="ml-1 mb-8 text-xl max-w-xl">
@@ -16,14 +16,14 @@ const Hero = () => {
 					</p>
 					<a target="_blank" href="https://linkedin.com/in/anthony-j-garcia-jr">
 						<FontAwesomeIcon
-							className="inline ml-1 mr-4"
+							className="inline ml-1 mr-4 hover:scale-125 transition ease-in-out"
 							icon={faLinkedin}
 							width={25}
 						/>
 					</a>
 					<a target="_blank" href="https://github.com/ayjayjr">
 						<FontAwesomeIcon
-							className="inline"
+							className="inline hover:scale-125 transition ease-in-out"
 							icon={faGithub}
 							width={25}
 						/>
