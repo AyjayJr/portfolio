@@ -75,13 +75,12 @@
 }
 
 .card-container {
-  overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
-  padding-top: 20px;
-  margin-bottom: -120px;
+  padding-top: 100px;
+  margin-bottom: 20px;
 }
 
 .splash {

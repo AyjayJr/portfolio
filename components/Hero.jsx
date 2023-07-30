@@ -12,7 +12,7 @@ const Hero = () => {
 						<b>Full-stack Developer</b>
 					</h1>
 					<p className="ml-1 mb-8 text-xl max-w-xl">
-						Hi, I'm <strong>Anthony Garcia Jr.</strong> A passionate full-stack developer based out of <strong>Florida, USA </strong>👋🏽
+						Hi, I'm <strong>Anthony Garcia Jr.</strong> A dedicated full-stack developer based out of <strong>Florida, USA </strong>👋🏽
 					</p>
 					<a target="_blank" href="https://linkedin.com/in/anthony-j-garcia-jr">
 						<FontAwesomeIcon

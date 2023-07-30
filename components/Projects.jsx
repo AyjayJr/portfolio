@@ -1,6 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedI } from "@fortawesome/free-brands-svg-icons";
 
 const cardVariants = {
 	offscreen: {
@@ -31,6 +33,11 @@ function Card({ emoji, hueA, hueB }) {
 		>
 			<motion.div className="card" variants={cardVariants}>
 				{emoji}
+			</motion.div>
+			<motion.div
+				className="max-w-sm mx-auto text-xl"
+			>
+				<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, repudiandae dolorem! Dolorem placeat, eum accusantium eos, recusandae quo rem nostrum molestiae quod similique corrupti aperiam, velit soluta voluptatem omnis? Nihil!</p>
 			</motion.div>
 		</motion.div>
 	);
