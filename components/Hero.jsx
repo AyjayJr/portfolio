@@ -16,7 +16,7 @@ const Hero = () => {
 					</p>
 					<a target="_blank" href="https://linkedin.com/in/anthony-j-garcia-jr">
 						<FontAwesomeIcon
-							className="inline ml-1 mr-2"
+							className="inline ml-1 mr-4"
 							icon={faLinkedin}
 							width={25}
 						/>
@@ -52,54 +52,54 @@ const Hero = () => {
 					/>
 				</div>
 				<div className="floating delay_2s shadow-xl rounded-full border border-gray-200">
-				<Image
-					className="inline m-4"
-					src="/assets/css-3.png"
-					alt="css3_logo"
-					width={40}
-					height={40}
-					unoptimized
-				/>
+					<Image
+						className="inline m-4"
+						src="/assets/css-3.png"
+						alt="css3_logo"
+						width={40}
+						height={40}
+						unoptimized
+					/>
 				</div>
 				<div className="floating shadow-xl rounded-full border border-gray-200">
-				<Image
-					className="inline m-4"
-					src="/assets/js.png"
-					alt="js_logo"
-					width={40}
-					height={40}
-					unoptimized
-				/>
-				</div>
-				<div className="floating shadow-xl rounded-full border border-gray-200">
-				<Image
-					className="inline m-4"
-					src="/assets/reactjs.svg"
-					alt="reactjs_logo"
-					width={40}
-					height={40}
-					unoptimized
-				/>
+					<Image
+						className="inline m-4"
+						src="/assets/js.png"
+						alt="js_logo"
+						width={40}
+						height={40}
+						unoptimized
+					/>
 				</div>
 				<div className="floating delay_2s shadow-xl rounded-full border border-gray-200">
-				<Image
-					className="inline m-4"
-					src="/assets/nextjs.svg"
-					alt="nextjs_logo"
-					width={40}
-					height={40}
-					unoptimized
-				/>
+					<Image
+						className="inline m-4"
+						src="/assets/reactjs.svg"
+						alt="reactjs_logo"
+						width={40}
+						height={40}
+						unoptimized
+					/>
 				</div>
 				<div className="floating shadow-xl rounded-full border border-gray-200">
-				<Image
-					className="inline m-4"
-					src="/assets/tailwind.svg"
-					alt="tailwind_logo"
-					width={40}
-					height={40}
-					unoptimized
-				/>
+					<Image
+						className="inline m-4"
+						src="/assets/nextjs.svg"
+						alt="nextjs_logo"
+						width={40}
+						height={40}
+						unoptimized
+					/>
+				</div>
+				<div className="floating delay_2s shadow-xl rounded-full border border-gray-200">
+					<Image
+						className="inline m-4"
+						src="/assets/tailwind.svg"
+						alt="tailwind_logo"
+						width={40}
+						height={40}
+						unoptimized
+					/>
 				</div>
 			</div>
 		</div>

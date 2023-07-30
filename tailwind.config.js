@@ -8,15 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        text: "#011423",
-        bg: "#fafdff",
-        primary: "#80c0f5",
-        secondary: "#c9e6fd",
-        accent: "#1282de",
-        dark_text: "#fafdff",
-        dark_bg: "#011423",
-        dark_secondary: "#02192c",
-        dark_accent: "#93caf6"
+        text: "#000000",
+        bg: "#ffffff",
+        primary: "#8fb3ff",
+        secondary: "#ebf1ff",
+        accent: "#d41d6d",
+        dark_text: "#ffffff",
+        dark_bg: "#000000",
+        dark_primary: "8fb3ff",
+        dark_secondary: "#001952",
+        dark_accent: "#f199bf"
       },
       backgroundImage: {
         'hero-img': "url('/assets/me.jpeg')",

@@ -7,10 +7,10 @@ const Nav = ({ clickHandler }) => {
 				<li><strong>anthony.dev</strong></li>
 			</ul>
 			<ul className="hidden md:flex flex-row space-x-4 text-lg">
-				<li className="text-text hover:text-primary"><a href="#">Home</a></li>
-				<li className="text-text hover:text-primary"><a href="#">About</a></li>
-				<li className="text-text hover:text-primary"><a href="#">Projects</a></li>
-				<li className="text-text hover:text-primary"><a href="#">Contact</a></li>
+				<li className="text-text hover:text-accent"><a href="#">Home</a></li>
+				<li className="text-text hover:text-accent"><a href="#">About</a></li>
+				<li className="text-text hover:text-accent"><a href="#">Projects</a></li>
+				<li className="text-text hover:text-accent"><a href="#">Contact</a></li>
 				<li>
 					<button role="button" onClick={clickHandler}>
 						<Image
