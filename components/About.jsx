@@ -1,8 +1,11 @@
 import Image from "next/image"
 
-const About = () => {
+const About = ({ id }) => {
 	return (
-		<div className="py-44 mx-5 border-b-2 border-gray-200 flex flex-col-reverse items-center lg:items-start lg:flex-row-reverse justify-between gap-10">
+		<div
+			id={id}
+			className="py-44 mx-5 border-b-2 border-gray-200 flex flex-col-reverse items-center lg:items-start lg:flex-row-reverse justify-between gap-10"
+		>
 			<div className="max-w-lg flex flex-col items-center lg:items-start">
 				<h2	className="text-xl text-accent lg:text-left">
 					<strong>ABOUT ME</strong>

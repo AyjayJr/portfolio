@@ -8,14 +8,9 @@ export const metadata = {
 
 const layout = ({ children }) => {
 	return (
-		<html lang="en">
+		<html lang="en" className="scroll-smooth">
 			<body className="bg-bg container mt-48 mx-auto max-w-5xl">
-				<header className="py-6 fixed top-0 left-0 right-0 shadow-lg bg-bg z-10">
-					<Nav />
-				</header>
-				<main>
-					{children}
-				</main>
+				{children}
 			</body>
 		</html>
 	)

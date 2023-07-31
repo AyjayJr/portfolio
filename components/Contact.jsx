@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons"
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons"
 
-const Contact = () => {
+const Contact = ({ id }) => {
 	return (
-		<div className="py-32 mx-5 text-center lg:text-left border-b-2 border-gray-200">
+		<div id={id} className="py-32 mx-5 text-center lg:text-left border-b-2 border-gray-200">
 			<div>
 				<h2 className="text-xl text-accent">
 					<strong>

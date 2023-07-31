@@ -50,9 +50,9 @@ const food = [
 	["🍐", 80, 120],
 ];
 
-const Projects = () => {
+const Projects = ({ id }) => {
 	return (
-		<div className="py-44 mx-5 border-b-2 border-gray-200">
+		<div id={id} className="py-44 mx-5 border-b-2 border-gray-200">
 			<h2 className="text-xl text-accent lg:text-left">
 				<strong>
 					PROJECTS

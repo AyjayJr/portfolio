@@ -8,9 +8,9 @@ const Nav = () => {
 			</ul>
 			<ul className="hidden md:flex flex-row space-x-4 text-lg">
 				<li className="text-text hover:text-accent"><a href="#">Home</a></li>
-				<li className="text-text hover:text-accent"><a href="#">About</a></li>
-				<li className="text-text hover:text-accent"><a href="#">Projects</a></li>
-				<li className="text-text hover:text-accent"><a href="#">Contact</a></li>
+				<li className="text-text hover:text-accent"><a href="#about">About</a></li>
+				<li className="text-text hover:text-accent"><a href="#projects">Projects</a></li>
+				<li className="text-text hover:text-accent"><a href="#contact">Contact</a></li>
 				<li>
 					<button role="button">
 						<Image

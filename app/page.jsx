@@ -1,3 +1,4 @@
+import Nav from "@/components/Nav"
 import Hero from "@/components/Hero"
 import About from "@/components/About"
 import Projects from "@/components/Projects"
@@ -6,13 +7,18 @@ import Footer from "@/components/Footer"
 
 const Home = () => {
 	return (
-		<div>
-			<Hero />
-			<About />
-			<Projects />
-			<Contact />
-			<Footer />
-		</div>
+		<>
+			<header className="py-6 fixed top-0 left-0 right-0 shadow-lg bg-bg z-10">
+				<Nav />
+			</header>
+			<main>
+				<Hero id="#" />
+				<About id="about" />
+				<Projects id="projects" />
+				<Contact id="contact" />
+				<Footer />
+			</main>
+		</>
 	)
 }
 

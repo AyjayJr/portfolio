@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
-const Hero = () => {
+const Hero = ({ id }) => {
 	return (
-		<div className="pb-56 border-b-2 border-gray-200">
+		<div id={id} className="pb-56 border-b-2 border-gray-200">
 			<div className="pb-10 mb-10 flex flex-col-reverse lg:flex-row lg:text-left text-center items-center justify-between">
 				<div className="max-w-2xl">
 					<h1 className="text-6xl pb-8">
