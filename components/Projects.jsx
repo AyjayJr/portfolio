@@ -61,7 +61,7 @@ const Projects = ({ id }) => {
           </motion.p>
           <div className="w-full flex justify-center gap-10 mt-6">
             <a
-              className="border p-3 active:shadow-sm shadow-lg border-gray-300 rounded"
+              className="border p-3 transition ease-in-out hover:scale-125 active:shadow-sm shadow-lg border-gray-300 rounded"
               target="_blank"
               href="https://github.com/AyjayJr/foodera"
             >
@@ -69,7 +69,7 @@ const Projects = ({ id }) => {
               Source Code
             </a>
             <a
-              className="border p-3 active:shadow-sm shadow-lg border-gray-300 rounded"
+              className="border p-3 transition ease-in-out hover:scale-125 active:shadow-sm shadow-lg border-gray-300 rounded"
               target="_blank"
               href="https://foodera-landing-page.vercel.app/"
             >
@@ -99,7 +99,28 @@ const Projects = ({ id }) => {
         <motion.div
           className="max-w-sm mx-auto text-xl"
         >
-          <motion.p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, repudiandae dolorem! Dolorem placeat, eum accusantium eos, recusandae quo rem nostrum molestiae quod similique corrupti aperiam, velit soluta voluptatem omnis? Nihil!</motion.p>
+          <h2 className="text-center mb-4"><strong>Promptopia</strong></h2>
+          <motion.p className="text-center text-gray-500">
+            Embrace the power of artificial intelligence as you delve into a realm of creativity and inspiration like never before. Designed for both seasoned writers and aspiring storytellers, Promptopia is the ultimate platform to discover, create, and share AI-powered prompts.
+          </motion.p>
+          <div className="w-full flex justify-center gap-10 mt-6">
+            <a
+              className="border p-3 hover:scale-125 transition ease-in-out active:shadow-sm shadow-lg border-gray-300 rounded"
+              target="_blank"
+              href="https://github.com/AyjayJr/promptopia"
+            >
+              <FontAwesomeIcon className="mr-2" icon={faGithub} />
+              Source Code
+            </a>
+            <a
+              className="border p-3 hover:scale-125 transition ease-in-out active:shadow-sm shadow-lg border-gray-300 rounded"
+              target="_blank"
+              href="https://promptopia-ayjayjr.vercel.app/"
+            >
+              <FontAwesomeIcon className="mr-2" icon={faLink} />
+              Live Demo
+            </a>
+          </div>
         </motion.div>
       </motion.div>
 
@@ -122,7 +143,28 @@ const Projects = ({ id }) => {
         <motion.div
           className="max-w-sm mx-auto text-xl"
         >
-          <motion.p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, repudiandae dolorem! Dolorem placeat, eum accusantium eos, recusandae quo rem nostrum molestiae quod similique corrupti aperiam, velit soluta voluptatem omnis? Nihil!</motion.p>
+          <h2 className="text-center mb-4"><strong>ReactMeals</strong></h2>
+          <motion.p className="text-center text-gray-500">
+            A website showcasing ReactMeals. An application to add foods to your cart and order. This was used as a way to practice React component fundamentals such as contexts, states, and components.
+          </motion.p>
+          <div className="w-full flex justify-center gap-10 mt-6">
+            <a
+              className="border p-3 hover:scale-125 transition ease-in-out active:shadow-sm shadow-lg border-gray-300 rounded"
+              target="_blank"
+              href="https://github.com/AyjayJr/react_meals"
+            >
+              <FontAwesomeIcon className="mr-2" icon={faGithub} />
+              Source Code
+            </a>
+            <a
+              className="border p-3 hover:scale-125 transition ease-in-out active:shadow-sm shadow-lg border-gray-300 rounded"
+              target="_blank"
+              href="https://react-meals-tawny.vercel.app/"
+            >
+              <FontAwesomeIcon className="mr-2" icon={faLink} />
+              Live Demo
+            </a>
+          </div>
         </motion.div>
       </motion.div>
 		</div>
