@@ -11,9 +11,15 @@ const About = ({ id }) => {
       lg:items-start lg:flex-row-reverse justify-between gap-10"
 		>
         <div className="max-w-lg flex flex-col items-center lg:items-start">
-          <h2	className="text-xl text-accent lg:text-left">
+          <motion.p
+            className="text-xl text-accent lg:text-left"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 1 }}
+          >
             <strong>ABOUT ME</strong>
-          </h2>
+          </motion.p>
           <motion.p
             className="my-4 text-2xl text-text"
             initial={{ opacity: 0 }}
