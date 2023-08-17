@@ -16,6 +16,10 @@
   inherits: false;
 }
 
+.dark {
+  @apply bg-dark_bg text-dark_text
+}
+
 .gradient_text {
   background-image: radial-gradient(circle, #8fb3ff, #d41d6d);
   background-clip: text;

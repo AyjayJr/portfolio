@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 const TechIcon = ({ src }) => {
   return ( 
-    <div className="ml-8 hover:scale-125 transition ease-in-out shadow-xl rounded-full border border-gray-200">
+    <div className="dark:bg-secondary ml-8 hover:scale-125 transition ease-in-out shadow-xl rounded-full border border-gray-200">
       <Image
         className="inline m-4"
         src={src}
@@ -34,7 +34,7 @@ const Hero = ({ id }) => {
 		<div id={id} className="pb-56 border-b-2 border-gray-200">
 			<div className="pb-10 mb-10 flex flex-col-reverse lg:flex-row lg:text-left text-center items-center justify-between">
 				<div className="max-w-2xl">
-					<h1 className="text-6xl pb-8">
+          <h1 className="gradient_text text-6xl pb-8">
 						<b>Software Engineer</b>
 					</h1>
 					<p className="ml-1 mb-8 text-xl max-w-xl">
@@ -60,7 +60,7 @@ const Hero = ({ id }) => {
 					priority="true"
 				>
           <div
-            className="border border-gray-200 drop-shadow-md p-3 cursor-default bg-gray-100 rounded-full absolute bottom-10 left-0 text-4xl" 
+            className="dark:bg-secondary border border-gray-200 drop-shadow-md p-3 cursor-default bg-gray-100 rounded-full absolute bottom-10 left-0 text-4xl" 
           >
             <motion.div
               whileHover={{

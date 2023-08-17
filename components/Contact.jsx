@@ -6,26 +6,26 @@ const Contact = ({ id }) => {
 	return (
 		<div id={id} className="py-32 mx-5 text-center lg:text-left border-b-2 border-gray-200">
 			<div>
-				<h2 className="text-xl text-accent">
+        <h2 className="dark:text-dark_accent text-xl text-accent">
 					<strong>
 						CONTACT ME
 					</strong>
 				</h2>
-				<p className="my-4 text-2xl text-text">
+        <p className="dark:text-primary my-4 text-2xl">
 					<strong>
 						Feel free to reach out! 📩
 					</strong>
 				</p>
 			</div>
 			<div className="pt-12 flex flex-col lg:flex-row items-center w-full gap-5">
-				<div className="hover:scale-125 transition ease-in-out shadow-xl rounded-full border border-gray-200">
+        <div className="dark:bg-dark_primary hover:scale-125 transition ease-in-out shadow-xl rounded-full border border-gray-200">
 					<FontAwesomeIcon
 						className="my-5 mx-6"
 						icon={faLocationDot}
             size="2x"
 					/>
 				</div>
-				<div className="flex flex-col gap-2 text-xl text-text">
+				<div className="flex flex-col gap-2 text-xl">
 					<h3>
 						<strong>
 							Location
@@ -44,7 +44,7 @@ const Contact = ({ id }) => {
             />
           </a>
         </div>
-        <div className="flex flex-col gap-2 text-xl text-text">
+        <div className="flex flex-col gap-2 text-xl">
           <h3>
             <strong>
               E-mail

@@ -12,7 +12,7 @@ const About = ({ id }) => {
 		>
         <div className="max-w-lg flex flex-col items-center lg:items-start">
           <motion.p
-            className="text-xl text-accent lg:text-left"
+            className="dark:text-primary text-xl text-accent lg:text-left"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -21,7 +21,7 @@ const About = ({ id }) => {
             <strong>ABOUT ME</strong>
           </motion.p>
           <motion.p
-            className="my-4 text-2xl text-text"
+            className="my-4 text-2xl dark:text-dark_accent"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}

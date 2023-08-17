@@ -8,7 +8,7 @@ import Footer from "@/components/Footer"
 const Home = () => {
 	return (
 		<>
-			<header className="py-6 fixed top-0 left-0 right-0 shadow-lg bg-bg z-10">
+      <header className="dark:bg-dark_bg py-6 fixed top-0 left-0 right-0 shadow-lg z-10">
 				<Nav />
 			</header>
 			<main>
