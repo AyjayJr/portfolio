@@ -22,7 +22,7 @@ const Contact = ({ id }) => {
 					<FontAwesomeIcon
 						className="my-5 mx-6"
 						icon={faLocationDot}
-						width={25}
+            size="2x"
 					/>
 				</div>
 				<div className="flex flex-col gap-2 text-xl text-text">
@@ -40,7 +40,7 @@ const Contact = ({ id }) => {
             <FontAwesomeIcon
               className="my-6 mx-6"
               icon={faEnvelopeOpenText}
-              width={25}
+              size="2x"
             />
           </a>
         </div>

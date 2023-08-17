@@ -10,14 +10,14 @@ const Footer = () => {
 					<FontAwesomeIcon
 						className="inline ml-1 mr-4 hover:scale-125 transition ease-in-out"
 						icon={faLinkedin}
-						width={25}
+            size="2x"
 					/>
 				</a>
 				<a target="_blank" href="https://github.com/ayjayjr">
 					<FontAwesomeIcon
 						className="inline hover:scale-125 transition ease-in-out"
 						icon={faGithub}
-						width={25}
+            size="2x"
 					/>
 				</a>
 			</div>
