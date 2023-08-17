@@ -4,15 +4,14 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
 const TechIcon = ({ src }) => {
-  return (
-    <div className="ml-8 shadow-xl rounded-full border border-gray-200">
+  return ( 
+    <div className="ml-8 hover:scale-125 transition ease-in-out shadow-xl rounded-full border border-gray-200">
       <Image
         className="inline m-4"
         src={src}
         alt="logo"
         width={40}
         height={40}
-        unoptimized
       />
     </div>
   )
