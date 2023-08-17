@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { motion } from "framer-motion"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedI } from "@fortawesome/free-brands-svg-icons";
@@ -34,14 +35,67 @@ const Projects = ({ id }) => {
 					Each project is a unique piece of development 🧩
 				</strong>
 			</p>
+
       <motion.div
         className="card_container flex flex-col lg:flex-row"
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <motion.div className="card mb-16" variants={cardVariants}>
-          A 
+        <motion.div className="card relative mb-16" variants={cardVariants}>
+          <Image
+            className="p-3"
+            src="/assets/foodera-long-min.png"
+            alt="project image"
+            layout="fill"
+            objectFit="contain"
+          />
+        </motion.div>
+        <motion.div
+          className="max-w-sm mx-auto text-xl"
+        >
+          <motion.p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, repudiandae dolorem! Dolorem placeat, eum accusantium eos, recusandae quo rem nostrum molestiae quod similique corrupti aperiam, velit soluta voluptatem omnis? Nihil!</motion.p>
+        </motion.div>
+      </motion.div>
+
+      <motion.div
+        className="card_container flex flex-col lg:flex-row"
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+      >
+        <motion.div className="card relative mb-16" variants={cardVariants}>
+          <Image
+            className="p-3"
+            src="/assets/promptopia-long-min.png"
+            alt="project image"
+            layout="fill"
+            objectFit="contain"
+            overflow="hidden"
+          />
+        </motion.div>
+        <motion.div
+          className="max-w-sm mx-auto text-xl"
+        >
+          <motion.p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, repudiandae dolorem! Dolorem placeat, eum accusantium eos, recusandae quo rem nostrum molestiae quod similique corrupti aperiam, velit soluta voluptatem omnis? Nihil!</motion.p>
+        </motion.div>
+      </motion.div>
+
+      <motion.div
+        className="card_container flex flex-col lg:flex-row"
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+      >
+        <motion.div className="card relative mb-16" variants={cardVariants}>
+          <Image
+            className="p-3"
+            src="/assets/react-meals-long-min.png"
+            alt="project image"
+            layout="fill"
+            objectFit="contain"
+            overflow="hidden"
+          />
         </motion.div>
         <motion.div
           className="max-w-sm mx-auto text-xl"
