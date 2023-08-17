@@ -10,22 +10,29 @@ const About = ({ id }) => {
 			className="py-44 mx-5 border-b-2 border-gray-200 flex flex-col-reverse items-center
       lg:items-start lg:flex-row-reverse justify-between gap-10"
 		>
-      <motion.div
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 0.2 }}
-      >
         <div className="max-w-lg flex flex-col items-center lg:items-start">
           <h2	className="text-xl text-accent lg:text-left">
             <strong>ABOUT ME</strong>
           </h2>
-          <p className="my-4 text-2xl text-text">
+          <motion.p
+            className="my-4 text-2xl text-text"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 1 }}
+          >
             <strong>A passionate Software Engineer with experience in many technologies ☑</strong>
-          </p>
-          <p className="text-lg">
+          </motion.p>
+          <motion.p
+            className="text-lg"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 1 }}
+          >
             My post-graduation journey has been defined by my commitment to staying at the forefront of the ever-evolving tech landscape. I believe that the key to becoming a better engineer lies in embracing change and seeking out challenges. My experiences include mastering React and Next.js to build more robust and efficient applications.
-          </p>
+          </motion.p>
         </div>
-      </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
