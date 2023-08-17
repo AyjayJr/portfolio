@@ -11,10 +11,10 @@ const Projects = ({ id }) => {
 
   const cardVariants = {
     offscreen: {
-      y: 300
+      y: 200
     },
     onscreen: {
-      y: 50,
+      y: 0,
       rotate: -10,
       transition: {
         type: "spring",
@@ -25,7 +25,7 @@ const Projects = ({ id }) => {
   }
 
 	return (
-    <div className="flex flex-col text-center lg:text-left py-44 mx-5 border-b-2 border-gray-200">
+    <div id={id} className="flex flex-col text-center lg:text-left py-44 mx-5 border-b-2 border-gray-200">
 			<h2 className="text-xl text-accent lg:text-left">
 				<strong>
 				  PORTFOLIO	
@@ -38,7 +38,7 @@ const Projects = ({ id }) => {
 			</p>
 
       <motion.div
-        className="card_container flex align-start flex-col lg:flex-row"
+        className="card_container flex flex-col lg:flex-row"
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
@@ -48,8 +48,8 @@ const Projects = ({ id }) => {
             className="p-3"
             src="/assets/foodera-long-min.png"
             alt="project image"
-            layout="fill"
-            objectFit="contain"
+            style={{ objectFit: "contain" }}
+            fill
           />
         </motion.div>
         <motion.div
@@ -91,9 +91,8 @@ const Projects = ({ id }) => {
             className="p-3"
             src="/assets/promptopia-long-min.png"
             alt="project image"
-            layout="fill"
-            objectFit="contain"
-            overflow="hidden"
+            style={{ objectFit: "contain" }}
+            fill
           />
         </motion.div>
         <motion.div
@@ -101,7 +100,7 @@ const Projects = ({ id }) => {
         >
           <h2 className="text-center mb-4"><strong>Promptopia</strong></h2>
           <motion.p className="text-center text-gray-500">
-            Embrace the power of artificial intelligence as you delve into a realm of creativity and inspiration like never before. Designed for both seasoned writers and aspiring storytellers, Promptopia is the ultimate platform to discover, create, and share AI-powered prompts.
+            Embrace the power of artificial intelligence as you delve into a realm of creativity and inspiration like never before. Promptopia is the ultimate platform to discover, create, and share AI-powered prompts.
           </motion.p>
           <div className="w-full flex justify-center gap-10 mt-6">
             <a
@@ -135,9 +134,8 @@ const Projects = ({ id }) => {
             className="p-3"
             src="/assets/react-meals-long-min.png"
             alt="project image"
-            layout="fill"
-            objectFit="contain"
-            overflow="hidden"
+            style={{ objectFit: "contain" }}
+            fill
           />
         </motion.div>
         <motion.div
