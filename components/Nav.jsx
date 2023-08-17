@@ -1,6 +1,4 @@
 import Image from "next/image"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 const Nav = () => {
 	return (
@@ -24,7 +22,7 @@ const Nav = () => {
 					</button>
 				</li>
 			</ul>
-      <FontAwesomeIcon className="sm:hidden mr-2" icon={faBars} />
+      <p className="md:hidden mr-2 text-2xl">&#9776;</p>
 		</nav>
 	)
 }
