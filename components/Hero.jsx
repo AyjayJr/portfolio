@@ -1,7 +1,9 @@
+"use client"
 import Image from "next/image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { motion } from "framer-motion"
 
 const TechIcon = ({ src }) => {
   return ( 
@@ -60,7 +62,16 @@ const Hero = ({ id }) => {
           <div
             className="border border-gray-200 drop-shadow-md p-3 cursor-default bg-gray-100 rounded-full absolute bottom-10 left-0 text-4xl" 
           >
-            👋
+            <motion.div
+              whileHover={{
+                rotate: [0,30,0,30,0],
+                transition: { repeat: 2},
+              }}
+              animate={{ rotate: [0,30,0,30,0] }}
+              transition={{ repeat: 2 }}
+            >
+              👋
+            </motion.div>
           </div>
 				</div>
 			</div>
