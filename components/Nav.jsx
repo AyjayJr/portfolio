@@ -2,8 +2,8 @@ import DarkModeButton from "@/components/DarkModeButton"
 
 const Nav = () => {
 	return (
-    <nav className="container mx-auto max-w-5xl flex flex-row gap-3 md:justify-between items-center">
-      <ul className="ml-1 mr-44 md:mr-0 text-2xl ">
+    <nav className="container mx-auto max-w-5xl flex flex-row justify-between items-center">
+      <ul className="ml-1 text-2xl ">
 				<li><strong>anthonyjr.dev</strong></li>
 			</ul>
 			<ul className="hidden md:flex flex-row items-center space-x-4 text-lg">
@@ -13,8 +13,10 @@ const Nav = () => {
         <li key={4} className="dark:hover:text-dark_accent hover:text-accent"><a href="#contact">Contact</a></li>
        <DarkModeButton />
 			</ul>
-      <DarkModeButton classname="md:hidden" />
-      <p className="md:hidden mr-2 text-2xl">&#9776;</p>
+      <div className="flex items-center md:hidden gap-4">
+        <DarkModeButton />
+        <p className="mr-2 text-2xl">&#9776;</p>
+      </div>
 		</nav>
 	)
 }
