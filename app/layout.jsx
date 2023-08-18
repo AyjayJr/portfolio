@@ -11,7 +11,7 @@ export const metadata = {
 const layout = ({ children }) => {
 	return (
 		<html lang="en" className="scroll-smooth">
-			<body className="dark bg-bg container mt-48 mx-auto max-w-5xl">
+			<body className="bg-bg container mt-48 mx-auto max-w-5xl">
 				{children}
 			</body>
 		</html>

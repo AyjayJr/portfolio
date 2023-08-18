@@ -11,7 +11,7 @@ const Projects = ({ id }) => {
 
   const cardVariants = {
     offscreen: {
-      y: 200
+      y: 400
     },
     onscreen: {
       y: 0,

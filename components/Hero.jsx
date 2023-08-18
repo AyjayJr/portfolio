@@ -77,11 +77,11 @@ const Hero = ({ id }) => {
 			</div>
 			<div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
 				<h2 className="text-lg">
-					<strong className="hidden lg:block text-text">
+					<strong className="hidden lg:block">
 						Tech Stack
 					</strong>
 				</h2>
-        {images.map((image) => <TechIcon src={image} />)}
+        {images.map((image) => <TechIcon src={image} key={Math.random()}/>)}
 			</div>
 		</div>
 	)
