@@ -25,7 +25,7 @@ const Projects = ({ id }) => {
   }
 
 	return (
-    <div id={id} className="flex flex-col text-center lg:text-left py-44 mx-5 border-b-2 border-gray-200">
+    <div id={id} className="overflow-hidden lg:overflow-visible flex flex-col text-center lg:text-left py-44 mx-5 border-b-2 border-gray-200">
       <h2 className="dark:text-primary text-xl text-accent lg:text-left">
 				<strong>
 				  PORTFOLIO	
@@ -55,7 +55,7 @@ const Projects = ({ id }) => {
         <motion.div
           className="max-w-sm mx-auto text-xl"
         >
-          <h2 className="dark:text-primary text-center mb-4"><strong>Foodera</strong></h2>
+          <h2 className="dark:text-primary text-center my-4"><strong>Foodera</strong></h2>
           <motion.p className="dark:text-secondary text-center text-gray-500">
             A website showcasing Foodera a deli/bakery that provides good alternatives to fast food. The website incorporates a responsive user-friendly design that can be viewed comfortably on all screen sizes.
           </motion.p>
@@ -98,7 +98,7 @@ const Projects = ({ id }) => {
         <motion.div
           className="max-w-sm mx-auto text-xl"
         >
-          <h2 className="dark:text-primary text-center mb-4"><strong>Promptopia</strong></h2>
+          <h2 className="dark:text-primary text-center my-4"><strong>Promptopia</strong></h2>
           <motion.p className="dark:text-secondary text-center text-gray-500">
             Embrace the power of artificial intelligence as you delve into a realm of creativity and inspiration like never before. Promptopia is the ultimate platform to discover, create, and share AI-powered prompts.
           </motion.p>
@@ -141,7 +141,7 @@ const Projects = ({ id }) => {
         <motion.div
           className="max-w-sm mx-auto text-xl"
         >
-          <h2 className="dark:text-primary text-center mb-4"><strong>ReactMeals</strong></h2>
+          <h2 className="dark:text-primary text-center my-4"><strong>ReactMeals</strong></h2>
           <motion.p className="dark:text-secondary text-center text-gray-500">
             A website showcasing ReactMeals. An application to add foods to your cart and order. This was used as a way to practice React component fundamentals such as contexts, states, and components.
           </motion.p>

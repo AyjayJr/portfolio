@@ -13,9 +13,9 @@ const Nav = () => {
         <li key={4} className="dark:hover:text-dark_accent hover:text-accent"><a href="#contact">Contact</a></li>
        <DarkModeButton />
 			</ul>
-      <div className="flex items-center md:hidden gap-4">
+      <div className="flex items-center md:hidden">
         <DarkModeButton />
-        <p className="mr-2 text-2xl">&#9776;</p>
+        <p className="ml-5 mr-3 text-2xl">&#9776;</p>
       </div>
 		</nav>
 	)

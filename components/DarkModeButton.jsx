@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 
-const DarkModeButton = ({ classname }) => {
+const DarkModeButton = () => {
   const [darkMode, setDarkMode] = useState(false)
 
   useEffect(() => {
@@ -27,7 +27,7 @@ const DarkModeButton = ({ classname }) => {
 
   return (
     <div
-      className={`${classname} w-10 h-6 opacity-75 flex items-center ${darkMode ? "justify-end bg-accent" : "justify-start bg-primary"}
+      className={`w-10 h-6 opacity-75 flex items-center ${darkMode ? "justify-end bg-accent" : "justify-start bg-primary"}
       rounded-full p-1 pointer`}
       onClick={toggleDarkMode}
     >

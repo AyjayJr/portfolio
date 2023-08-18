@@ -21,7 +21,7 @@ const About = ({ id }) => {
             <strong>ABOUT ME</strong>
           </motion.p>
           <motion.p
-            className="my-4 text-2xl dark:text-dark_accent"
+            className="my-4 text-2xl text-center lg:text-left dark:text-dark_accent"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -30,7 +30,7 @@ const About = ({ id }) => {
             <strong>A passionate Software Engineer with experience in many technologies ☑</strong>
           </motion.p>
           <motion.p
-            className="text-lg"
+            className="text-lg text-center lg:text-left"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
