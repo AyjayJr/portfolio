@@ -43,7 +43,7 @@ const Projects = ({ id }) => {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <motion.div className="card relative mb-16" variants={cardVariants}>
+        <motion.div className="card relative" variants={cardVariants}>
           <Image
             className="p-3"
             src="/assets/foodera-long-min.png"
@@ -86,7 +86,7 @@ const Projects = ({ id }) => {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <motion.div className="card relative mb-16" variants={cardVariants}>
+        <motion.div className="card relative" variants={cardVariants}>
           <Image
             className="p-3"
             src="/assets/promptopia-long-min.png"
@@ -129,7 +129,7 @@ const Projects = ({ id }) => {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <motion.div className="card relative mb-16" variants={cardVariants}>
+        <motion.div className="card relative" variants={cardVariants}>
           <Image
             className="p-3"
             src="/assets/react-meals-long-min.png"
