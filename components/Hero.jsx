@@ -60,7 +60,7 @@ const Hero = ({ id }) => {
 					priority="true"
 				>
           <div
-            className="dark:bg-secondary border border-gray-200 drop-shadow-md py-4 px-3 cursor-default bg-gray-200 rounded-full absolute bottom-10 left-0 text-4xl" 
+            className="dark:bg-secondary border border-gray-200 drop-shadow-md py-4 px-3 cursor-default bg-gray-100 dark:bg-gray-200 rounded-full absolute bottom-10 left-0 text-4xl" 
           >
             <motion.div
               whileHover={{
