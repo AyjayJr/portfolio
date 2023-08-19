@@ -13,7 +13,12 @@ const Nav = ({ clickHandler }) => {
         <li key={3} className="dark:hover:text-dark_accent hover:text-accent"><a href="#projects">Projects</a></li>
         <li key={4} className="dark:hover:text-dark_accent hover:text-accent"><a href="#contact">Contact</a></li>
 			</ul>
-      <button onClick={clickHandler} className="mr-3 text-2xl md:hidden">&#9776;</button>
+      <button
+        onClick={clickHandler}
+        className="mr-3 text-2xl hover:text-accent dark:hover:dark_accent md:hidden"
+      >
+        &#9776;
+      </button>
       <div className="absolute right-12 md:right-0">
         <DarkModeButton />
       </div>

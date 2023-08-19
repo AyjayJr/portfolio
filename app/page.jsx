@@ -10,6 +10,8 @@ import Footer from "@/components/Footer"
 
 import { useState } from "react"
 import { createPortal } from "react-dom"
+import { config } from "@fortawesome/fontawesome-svg-core"
+config.autoAddCss = false;
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
