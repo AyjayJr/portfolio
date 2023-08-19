@@ -11,12 +11,15 @@ import Footer from "@/components/Footer"
 import { useState } from "react"
 import { createPortal } from "react-dom"
 import { config } from "@fortawesome/fontawesome-svg-core"
+
 config.autoAddCss = false;
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
   const openMenu = () => { setIsMenuOpen(prev => !prev)} 
+
+  const portalRoot = document.getElementById("portalRoot")
 
 	return (
 		<>
@@ -25,7 +28,7 @@ const Home = () => {
 			</header>
       {createPortal(
         <ModalMenu menuOpen={isMenuOpen} clickHandler={openMenu} />,
-        document.body
+        portalRoot
       )}
 			<main>
 				<Hero id="#" />

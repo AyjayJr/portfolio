@@ -9,7 +9,10 @@ export const metadata = {
 const layout = ({ children }) => {
 	return (
 		<html lang="en">
-			<body className="bg-bg max-w-screen container mt-48 mx-auto max-w-5xl">
+			<body
+        id="portal"
+        className="bg-bg max-w-screen container mt-48 mx-auto max-w-5xl"
+      >
 				{children}
 			</body>
 		</html>
