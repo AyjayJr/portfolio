@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 const TechIcon = ({ src }) => {
   return ( 
-    <div className="dark:bg-secondary ml-8 hover:scale-125 transition ease-in-out shadow-xl rounded-full border border-gray-200">
+    <div className="dark:bg-secondary hover:scale-125 shadow-xl rounded-full border border-gray-200">
       <Image
         className="inline m-4"
         src={src}
@@ -60,7 +60,7 @@ const Hero = ({ id }) => {
 					priority="true"
 				>
           <div
-            className="dark:bg-secondary border border-gray-200 drop-shadow-md p-3 cursor-default bg-gray-100 rounded-full absolute bottom-10 left-0 text-4xl" 
+            className="dark:bg-secondary border border-gray-200 drop-shadow-md py-4 px-3 cursor-default bg-gray-200 rounded-full absolute bottom-10 left-0 text-4xl" 
           >
             <motion.div
               whileHover={{
@@ -75,12 +75,7 @@ const Hero = ({ id }) => {
           </div>
 				</div>
 			</div>
-			<div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
-				<h2 className="text-lg">
-					<strong className="hidden lg:block">
-						Tech Stack
-					</strong>
-				</h2>
+			<div className="mx-auto flex flex-wrap items-center justify-center lg:justify-start gap-16">
         {images.map((image) => <TechIcon src={image} key={Math.random()}/>)}
 			</div>
 		</div>

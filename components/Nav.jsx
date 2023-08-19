@@ -1,6 +1,10 @@
+"use client"
 import DarkModeButton from "@/components/DarkModeButton"
 
 const Nav = () => {
+
+  const openMenu = () => {}
+
 	return (
     <nav className="container mx-auto max-w-5xl flex flex-row justify-between items-center">
       <ul className="ml-1 text-2xl ">
@@ -15,7 +19,7 @@ const Nav = () => {
 			</ul>
       <div className="flex items-center md:hidden">
         <DarkModeButton />
-        <p className="ml-5 mr-3 text-2xl">&#9776;</p>
+        <button onClick={openMenu} className="ml-5 mr-3 text-2xl">&#9776;</button>
       </div>
 		</nav>
 	)
