@@ -50,6 +50,7 @@ const Projects = ({ id }) => {
             alt="project image"
             style={{ objectFit: "contain" }}
             fill
+            sizes="100%"
           />
         </motion.div>
         <motion.div
@@ -93,6 +94,7 @@ const Projects = ({ id }) => {
             alt="project image"
             style={{ objectFit: "contain" }}
             fill
+            sizes="100%"
           />
         </motion.div>
         <motion.div
@@ -136,6 +138,7 @@ const Projects = ({ id }) => {
             alt="project image"
             style={{ objectFit: "contain" }}
             fill
+            sizes="100%"
           />
         </motion.div>
         <motion.div

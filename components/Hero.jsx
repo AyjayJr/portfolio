@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 const TechIcon = ({ src }) => {
   return ( 
-    <div className="dark:bg-secondary hover:scale-125 shadow-xl rounded-full border border-gray-200">
+    <div className="dark:bg-secondary transition-transform ease-in-out hover:scale-125 shadow-xl rounded-full border border-gray-200">
       <Image
         className="inline m-4"
         src={src}
@@ -75,7 +75,7 @@ const Hero = ({ id }) => {
           </div>
 				</div>
 			</div>
-			<div className="mx-auto flex flex-wrap items-center justify-center lg:justify-start gap-16">
+			<div className="flex flex-wrap items-center justify-center gap-16">
         {images.map((image) => <TechIcon src={image} key={Math.random()}/>)}
 			</div>
 		</div>

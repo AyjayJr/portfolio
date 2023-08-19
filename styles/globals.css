@@ -16,6 +16,10 @@
   inherits: false;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .dark {
   @apply bg-dark_bg text-dark_text
 }
