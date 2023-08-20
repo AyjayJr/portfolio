@@ -9,8 +9,6 @@ export const metadata = {
 const layout = ({ children }) => {
 	return (
 		<html lang="en">
-      <meta name="og:image" content="/assets/sharing.png" />
-      <meta name="twitter:image" content="/assets/sharing.png" />
 			<body
         id="portal"
         className="bg-bg max-w-screen container mt-48 mx-auto max-w-5xl"
