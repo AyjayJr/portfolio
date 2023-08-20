@@ -25,7 +25,7 @@ const Projects = ({ id }) => {
   }
 
 	return (
-    <div id={id} className="overflow-hidden lg:overflow-visible flex flex-col text-center lg:text-left py-44 mx-5 border-b-2 border-gray-200">
+    <div id={id} className="flex flex-col text-center lg:text-left py-44 mx-5 border-b-2 border-gray-200">
       <h2 className="dark:text-primary text-xl text-accent lg:text-left">
 				<strong>
 				  PORTFOLIO	
@@ -43,7 +43,7 @@ const Projects = ({ id }) => {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <motion.div className="card relative" variants={cardVariants}>
+        <motion.div className="card w-[300px] h-[380px] lg:w-[400px] lg:h-[530px] relative" variants={cardVariants}>
           <Image
             className="p-3"
             src="/assets/foodera-long-min.png"
@@ -53,13 +53,13 @@ const Projects = ({ id }) => {
             sizes="100%"
           />
         </motion.div>
-        <motion.div
-          className="max-w-sm mx-auto text-xl"
+        <div
+          className="max-w-sm mx-auto text-md lg:text-xl"
         >
           <h2 className="dark:text-primary text-center my-4"><strong>Foodera</strong></h2>
-          <motion.p className="dark:text-secondary text-center text-gray-500">
+          <p className="dark:text-secondary text-center text-gray-500">
             A website showcasing Foodera a deli/bakery that provides good alternatives to fast food. The website incorporates a responsive user-friendly design that can be viewed comfortably on all screen sizes.
-          </motion.p>
+          </p>
           <div className="w-full flex justify-center gap-10 mt-6">
             <a
               className="border p-3 transition ease-in-out hover:scale-125 active:shadow-sm shadow-lg border-gray-300 rounded"
@@ -78,7 +78,7 @@ const Projects = ({ id }) => {
               Live Demo
             </a>
           </div>
-        </motion.div>
+        </div>
       </motion.div>
 
       <motion.div
@@ -87,7 +87,7 @@ const Projects = ({ id }) => {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <motion.div className="card relative" variants={cardVariants}>
+        <motion.div className="card w-[300px] h-[380px] lg:w-[400px] lg:h-[530px] relative" variants={cardVariants}>
           <Image
             className="p-3"
             src="/assets/promptopia-long-min.png"
@@ -97,13 +97,13 @@ const Projects = ({ id }) => {
             sizes="100%"
           />
         </motion.div>
-        <motion.div
-          className="max-w-sm mx-auto text-xl"
+        <div
+          className="max-w-sm mx-auto text-md lg:text-xl"
         >
           <h2 className="dark:text-primary text-center my-4"><strong>Promptopia</strong></h2>
-          <motion.p className="dark:text-secondary text-center text-gray-500">
+          <p className="dark:text-secondary text-center text-gray-500">
             Embrace the power of artificial intelligence as you delve into a realm of creativity and inspiration like never before. Promptopia is the ultimate platform to discover, create, and share AI-powered prompts.
-          </motion.p>
+          </p>
           <div className="w-full flex justify-center gap-10 mt-6">
             <a
               className="border p-3 hover:scale-125 transition ease-in-out active:shadow-sm shadow-lg border-gray-300 rounded"
@@ -122,7 +122,7 @@ const Projects = ({ id }) => {
               Live Demo
             </a>
           </div>
-        </motion.div>
+        </div>
       </motion.div>
 
       <motion.div
@@ -131,7 +131,7 @@ const Projects = ({ id }) => {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <motion.div className="card relative" variants={cardVariants}>
+        <motion.div className="card w-[300px] h-[380px] lg:w-[400px] lg:h-[530px] relative" variants={cardVariants}>
           <Image
             className="p-3"
             src="/assets/react-meals-long-min.png"
@@ -141,13 +141,13 @@ const Projects = ({ id }) => {
             sizes="100%"
           />
         </motion.div>
-        <motion.div
-          className="max-w-sm mx-auto text-xl"
+        <div
+          className="max-w-sm mx-auto text-md lg:text-xl"
         >
           <h2 className="dark:text-primary text-center my-4"><strong>ReactMeals</strong></h2>
-          <motion.p className="dark:text-secondary text-center text-gray-500">
+          <p className="dark:text-secondary text-center text-gray-500">
             A website showcasing ReactMeals. An application to add foods to your cart and order. This was used as a way to practice React component fundamentals such as contexts, states, and components.
-          </motion.p>
+          </p>
           <div className="w-full flex justify-center gap-10 mt-6">
             <a
               className="border p-3 hover:scale-125 transition ease-in-out active:shadow-sm shadow-lg border-gray-300 rounded"
@@ -166,7 +166,7 @@ const Projects = ({ id }) => {
               Live Demo
             </a>
           </div>
-        </motion.div>
+        </div>
       </motion.div>
 		</div>
 	)
