@@ -33,7 +33,7 @@ const Projects = ({ id }) => {
 			</h2>
       <p className="my-4 text-2xl dark:text-dark_accent">
 				<strong>
-          Each project showcases a unique skillset ⚙ 
+          Each project showcases a unique skillset 🛠
 				</strong>
 			</p>
 

@@ -27,7 +27,7 @@ const About = ({ id }) => {
             transition={{ duration: 1 }}
             viewport={{ once: true, amount: 1 }}
           >
-            <strong>A passionate Software Engineer with experience in many technologies ☑</strong>
+            <strong>A passionate Software Engineer with experience in many technologies ✅</strong>
           </motion.p>
           <motion.p
             className="text-lg text-center lg:text-left"
