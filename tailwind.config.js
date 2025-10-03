@@ -20,7 +20,7 @@ module.exports = {
         dark_accent: "#f199bf"
       },
       backgroundImage: {
-        'hero-img': "url('/assets/me.jpeg')",
+        'hero-img': "url('/assets/me.webp')",
       }
     },
   },
