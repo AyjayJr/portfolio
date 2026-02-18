@@ -32,7 +32,7 @@ const Contact = ({ id }) => {
 						</strong>
 					</h3>
 					<p>
-						Tampa, FL
+						Kissimmee, FL
 					</p>
 				</div>
         <div className="hover:scale-125 transition ease-in-out mt-5 lg:mt-0 shadow-xl rounded-full border border-gray-200">

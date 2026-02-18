@@ -27,7 +27,7 @@ const About = ({ id }) => {
             transition={{ duration: 1 }}
             viewport={{ once: true, amount: 1 }}
           >
-            <strong>A passionate Software Engineer with experience in many technologies ✅</strong>
+            <strong>Crafting maintainable code from initial mockup to production-ready deployment✅</strong>
           </motion.p>
           <motion.p
             className="text-lg text-center lg:text-left"
@@ -36,7 +36,7 @@ const About = ({ id }) => {
             transition={{ duration: 1 }}
             viewport={{ once: true, amount: 1 }}
           >
-            My post-graduation journey has been defined by my commitment to staying at the forefront of the ever-evolving tech landscape. I believe that the key to becoming a better engineer lies in embracing change and seeking out challenges. My experiences include mastering React and Next.js to build more robust and efficient applications.
+            With three years of experience, I’ve mastered the art of taking a concept from a Figma mockup to a fully realized custom WordPress theme or a complex Next.js application. I don't just write code, I build design-forward solutions that solve real-world problems.
           </motion.p>
         </div>
       <motion.div

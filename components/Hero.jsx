@@ -38,7 +38,7 @@ const Hero = ({ id }) => {
 						<b>Software Engineer</b>
 					</h1>
 					<p className="ml-1 mb-8 text-xl max-w-xl">
-						Hi, I'm <strong>Anthony Garcia Jr.</strong> a recent Computer Science graduate with a strong enthusiasm for software engineering and a hunger for continuous learning.
+					Hi, I'm <strong>Anthony Garcia Jr.</strong> A Software Engineer with three years of experience bringing digital products to life. From initial concept and high-fidelity mockups to scalable, production-ready code.	
 					</p>
 					<a target="_blank" href="https://linkedin.com/in/anthony-j-garcia-jr">
 						<FontAwesomeIcon
